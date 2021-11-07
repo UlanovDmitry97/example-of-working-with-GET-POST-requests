@@ -1,0 +1,103 @@
+body {
+  background-color: #a0a0a0;
+}
+
+.h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.item {
+  width:  calc(50% - 30px);
+  min-height: 300px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.btn-primary {
+  margin-top: auto;
+}
+
+.card-text {
+  -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-title {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.page-text {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.page-comment-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  margin-top: 100px;
+  list-style-type: none;
+}
+
+.list-title {
+  width: 100%;
+  font-size: 40px;
+}
+
+.list-title-item {
+  width: 100%;
+}
+
+.page-comment-item {
+  width: calc(50% - 20px);
+}
+
+.card-comment {
+  background-color: #373737;
+}
+
+.page-comment-text {
+  color: #fff;
+}
+
+.blockquote-footer {
+  color: #d3d3d3;
+}
+
+.pagination {
+  flex-wrap: wrap;
+}
+
+.page-comment-figure {
+  width: 100%;
+}

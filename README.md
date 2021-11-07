@@ -1,1 +1,1 @@
-example-of-working-with-GET-POST-requests
+Пример работы с запросами, создание списка статей и страницы статьи.
